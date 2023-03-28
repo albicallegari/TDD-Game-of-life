@@ -1,5 +1,5 @@
 {
-  "name": "tdd-game-of-life",
+  "name": "ac-tdd-game-of-life",
   "version": "1.0.0",
   "description": "Conways - Game of life",
   "main": "index.js",
