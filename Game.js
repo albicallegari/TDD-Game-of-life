@@ -88,7 +88,7 @@ export default class Game {
   }
 
   nextState() {
-    this.state = this.state.map((row, rowNum) =>
+    return this.state.map((row, rowNum) =>
       row.map(
         (cell, colNum) =>
           new Cell(

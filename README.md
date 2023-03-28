@@ -24,4 +24,4 @@ Test Driven Development - Game of life
     - [x] Array of arrays of states
   - [x] Should retrieve a cell at a given row and column
   - [x] Should get the number of alive neighbors for a given cell
-  - [ ] Should create the next state of the game
+  - [x] Should create the next state of the game
