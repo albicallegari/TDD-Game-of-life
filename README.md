@@ -20,13 +20,8 @@ Test Driven Development - Game of life
   - [x] Should die with more than 3 neighbors
   - [x] Should come alive with exactly 3 neighbors
 - Game
-  - [ ] Should be initialized with a given state
-    - [ ] Array of arrays of states
-  - [ ] Should retrieve a cell at a given row and column
-  - [ ] Should get the number of alive neighbors for a given cell
+  - [x] Should be initialized with a given state
+    - [x] Array of arrays of states
+  - [x] Should retrieve a cell at a given row and column
+  - [x] Should get the number of alive neighbors for a given cell
   - [ ] Should create the next state of the game
-
-## TODO
-
-- [ ] Game set game state
-- [ ] Cell set state

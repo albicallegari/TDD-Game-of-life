@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { expect } from 'chai';
 import CellState from '../CellState';
 import Cell from '../Cell';
@@ -9,6 +10,12 @@ describe('Cell', () => {
 
     const deadCell = new Cell(CellState.DEAD);
     expect(deadCell.state).to.equal(CellState.DEAD);
+  });
+
+  it('Should throw an error if not initialized with a CellState', () => {
+    expect(() => {
+      const cell = new Cell(undefined);
+    }).to.throw();
   });
 
   it('Should die if it has fewer than 2 live nieghbors', () => {
