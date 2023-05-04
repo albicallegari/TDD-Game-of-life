@@ -29,7 +29,7 @@ export default class Game {
       (colNum === col && rowNum === row - 1) ||
       (colNum === col + 1 && rowNum === row - 1);
 
-    const cellNect = (rowNum, colNum) =>
+    const cellNext = (rowNum, colNum) =>
       (colNum === col - 1 && rowNum === row) ||
       (colNum === col + 1 && rowNum === row);
 
@@ -43,7 +43,7 @@ export default class Game {
       cellRow.forEach((cell, colNum) => {
         if (
           cellAbove(rowNum, colNum) ||
-          cellNect(rowNum, colNum) ||
+          cellNext(rowNum, colNum) ||
           cellBelow(rowNum, colNum)
         ) {
           numNeighbors += stateValues[cell.state];
